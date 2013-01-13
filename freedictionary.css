@@ -1,0 +1,59 @@
+/*
+ * Stylesheed based on dicksunhairy at userstyles.org
+ * http://userstyles.org/styles/59835/dicksunhairy
+ */
+div#LeftColumn {
+  display: none!important;
+}
+
+.brand_copy, table[style="float:left"], TD.greyTab, #Timer, .help5, .help5:visited, .help8, .help8:visited, #Translations, td[width="198"], #topline, #selfpromo, #FooterLinks, #FooterCopy {
+  display: none!important;
+}
+
+html body table#ContentTable tbody tr td table.sbox1 {
+  display: none;
+}
+
+body {
+  width: 720px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 12px !important;
+  padding: 5px 10px 0 15px !important;
+  box-shadow: 0 0 35px 4px rgba(0,0,0,0.7);
+  border-radius: 4px;
+}
+
+hr {
+  margin: 16px 50px !important;
+  opacity: 0.3;
+  color: #FFF !important;
+  background-color: #FFF !important;
+  height: 0!important;
+}
+
+html {
+  background: url(http://i.imgur.com/LdSHL.jpg) fixed !important;
+}
+
+body {
+  font-family: georgia, times, serif;
+}
+
+table.Tabs.FTabs {
+  display: none!important;
+}
+
+td {
+  font-size: 15px !important;
+  line-height: 1.5;
+}
+
+#MainTxt > div > b:first-child,
+.runseg > b:first-child {
+  margin-left: -15px;
+}
+
+#MainTxt > div {
+  margin-left: 19px;
+}

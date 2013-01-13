@@ -1,0 +1,23 @@
+{
+	"name": "Wörterbuch",
+	"version": "0.1",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"permissions": [
+		"contextMenus"
+	],
+  "manifest_version": 2,
+	"background": {
+    "scripts": ["context.js"]
+  },
+	"omnibox": { "keyword" : "de" },
+	"content_scripts": [
+    {
+      "matches": ["http://de.thefreedictionary.com/*"],
+      "css": ["freedictionary.css"]
+    }
+	]
+}
